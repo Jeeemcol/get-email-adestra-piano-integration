@@ -1,5 +1,3 @@
-Certainly! Here's a README for the provided PHP code:
-
 # PHP Code for Adestra Integration into Piano.io using email
 
 This PHP script is designed to integrate with the Adestra API to manage contacts and lists. It performs the following actions:
