@@ -43,11 +43,6 @@
 		$response = curl_exec($curl);
 		$decoded = json_decode($response);
 		print_r($decoded);
-
-		//print_r($decoded->contacts[0]->id);
-		//$contact = $decoded->contacts[0]->id;
-		//
-		//print($contact);
 	}
 	else {
 		print('Please <a href="javascript:tp.pianoId.show(\'login\');">login/register</a> to request the PDF');
